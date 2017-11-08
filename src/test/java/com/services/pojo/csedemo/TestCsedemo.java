@@ -32,10 +32,10 @@ public class TestCsedemo {
     @Test
     public void testsayHei(){
 
-        String expactReturnValue = null; // You should put the expect String type value here.
+        String expactReturnValue = "Hi, Tom! Welcome to ServiceStage"; // You should put the expect String type value here.
 
         // You should put the parameter here, in such footprint: csedemoImpl.sayHei(String name)
-        String returnValue = csedemoImpl.sayHei(null);
+        String returnValue = csedemoImpl.sayHei("Tom");
 
         assertEquals(expactReturnValue, returnValue);
     }
@@ -56,10 +56,10 @@ public class TestCsedemo {
     @Test
     public void testsayHi(){
 
-        String expactReturnValue = null; // You should put the expect String type value here.
+        String expactReturnValue = "Hi, Tom! Welcome to ServiceStage"; // You should put the expect String type value here.
 
         // You should put the parameter here, in such footprint: csedemoImpl.sayHi(String name)
-        String returnValue = csedemoImpl.sayHi(null);
+        String returnValue = csedemoImpl.sayHi("Tom");
 
         assertEquals(expactReturnValue, returnValue);
     }
